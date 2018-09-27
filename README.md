@@ -11,4 +11,5 @@ Methods used:
 * 96-64-64-32 relu fully connected
 * BoltzmannGumbelQPolicy
 
+Environment is given by potential funcitons  
 Code runs with rendering and supports gym interface.
