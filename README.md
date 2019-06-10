@@ -10,6 +10,7 @@ Environment is 20x20 grid that has the specific value of the target function in 
 ## /finite case
 This is the case where the agent is rewarded once per episode at the moment it reaches the optimum.  
 The agent learns to stabely reach the optimum in ~13k iterations.  
+
 <img src="docs/images/run_finite.gif" alt="run_finite" height="400"/>
 
 Reward:
@@ -25,9 +26,9 @@ Learning:
 * BoltzmannGumbelQPolicy
 
 ## /infinite case
-This is the case where the agent is rewarded each step based on the target function value. The episode lasts till reaching max_steps and the agent has an action of standing still.  
-Some complexity arises from the fact that the target function shifts through time.
+This is the case the target function shifts through time, and the agent is rewarded each step based on the target function value. The episode lasts till reaching max_steps and the agent has an action of standing still.  
 The agent learns to stabely reach the optimum in ~50k iterations.  
+
 <img src="docs/images/run_infinite.gif" alt="run_infinite" height="400"/>
 
 (difference with the first setup is marked with bold)
