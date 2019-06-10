@@ -31,7 +31,7 @@ The agent learns to stabely reach the optimum in ~50k iterations.
 
 <img src="docs/images/run_infinite.gif" alt="run_infinite" height="400"/>
 
-(difference with the first setup is marked with bold)
+(difference with the first setup is marked with bold)  
 Reward:
 * step penalty
 * **idle penalty**
@@ -54,7 +54,7 @@ pip install gym
 pip install keras-rl
 ```
 
-To run the app simply execute:
+To run the script simply execute:
 ```text
 cd /finite
 python run.py
